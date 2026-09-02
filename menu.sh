@@ -8,6 +8,8 @@ while ((op != 6)); do
   printf "1. Figura 1\n"
   printf "2. Figura 2\n"
   printf "3. Figura 3\n"
+  printf "4. Figura 4\n"
+  printf "5. Figura 5\n"
   printf "6. Salir\n"
   printf "=======================\n"
 
@@ -24,6 +26,14 @@ while ((op != 6)); do
     ;;
   3)
     bash figura3.sh
+    read -p "Presiona [Enter] para continuar..." pausa
+    ;;
+  4)
+    bash figura4.sh
+    read -p "Presiona [Enter] para continuar..." pausa
+    ;;
+  5)
+    bash figura4.sh
     read -p "Presiona [Enter] para continuar..." pausa
     ;;
   6)

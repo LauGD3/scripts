@@ -2,15 +2,13 @@
 
 clear
 
-for ((i = 1; i <= 5; i++)); do
+for ((i = 5; i >= 1; i--)); do
   for ((j = 1; j <= 5 - i; j++)); do
     printf " "
   done
 
-  # Imprimir asteriscos (1 a 5)
   for ((k = 1; k <= i; k++)); do
     printf "*"
   done
-
   echo
 done
